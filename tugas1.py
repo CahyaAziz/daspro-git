@@ -14,3 +14,7 @@ def fibonacci(n):
         sequence.append(next)
  
     return sequence
+
+n = int(input("Banyak deret fibonacci yang ingin ditampilkan: "))
+
+print(*fibonacci(n), sep=', ')
