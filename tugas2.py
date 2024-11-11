@@ -3,7 +3,7 @@
 # Kelas : 1C
 
 def login():
-    chance = 3
+    chance = 5
     while True:
         user = input("Username: ")
         password = input("Password: ")
